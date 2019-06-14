@@ -16,3 +16,11 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+Route::get('/test', function (Request $request) {
+    return $request->user();
+    return response(["testing complete", 1,2,3], 200);
+});
+
+

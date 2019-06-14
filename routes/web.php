@@ -10,11 +10,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@index');
+//api cannot get the user information
+Route::get("/api/currentUser", 'HomeController@currentUser');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
