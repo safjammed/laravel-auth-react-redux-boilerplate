@@ -27,7 +27,7 @@ This is preinstalled with:
 - ~~Install react on laravel~~
 - ~~configure auth nd app layouts~~
 - ~~Create a simple user info fetch app~~
-- Make use of react-router
+- ~~Make use of react-router~~
 - Secure the api
 
 ## This project is still under development. Proceed with extreme precaution when using it in production mode.
