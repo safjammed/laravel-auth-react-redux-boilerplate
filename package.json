@@ -16,6 +16,7 @@
         "cross-env": "^5.1",
         "jquery": "^3.2",
         "laravel-mix": "^4.0.7",
+        "laravel-mix-alias": "^1.0.2",
         "lodash": "^4.17.5",
         "popper.js": "^1.12",
         "react": "^16.2.0",
@@ -29,6 +30,6 @@
         "react-redux": "^7.1.0",
         "react-router-dom": "^5.0.1",
         "redux": "^4.0.1",
-        "redux-promise": "^0.6.0"
+        "redux-thunk": "^2.3.0"
     }
 }

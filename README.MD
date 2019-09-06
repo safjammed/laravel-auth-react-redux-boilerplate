@@ -13,8 +13,9 @@ This is preinstalled with:
 - lodash: 4.17.5,
 - react-dom: 16.2.0,
 - redux: 4.0.1,
-- redux-promise: 0.6.0
+- redux-think: 2.3.0
 - bootstrap: 4.1
+- Laravel-mix-alias : 1.0.2
 
 
 ### Extras:
@@ -28,8 +29,12 @@ This is preinstalled with:
 - ~~configure auth nd app layouts~~
 - ~~Create a simple user info fetch app~~
 - ~~Make use of react-router~~
-- Secure the api
+- ~~Add Code Splitting~~
+- ~~Hot module Replacement~~
+
+#### To Enable hot reload:
+`npm run hot`
 
 ## This project is still under development. Proceed with extreme precaution when using it in production mode.
-For contributing please contact me. 
+For contributing please contact me.
 `safayatjamil27@gmail.com`
